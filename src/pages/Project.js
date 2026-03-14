@@ -1,8 +1,8 @@
-function Portfolio(){
+function Project(){
   return(
     <div className="page">
 
-      <h1>Portfolio</h1>
+      <h1>Project</h1>
 
       <p>Here are some of my projects.</p>
 
@@ -10,4 +10,4 @@ function Portfolio(){
   )
 }
 
-export default Portfolio
+export default Project
