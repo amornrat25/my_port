@@ -1,5 +1,10 @@
+/* ============================================
+   App.css — Warm Sand × Organic & Soft
+   Earth tone palette with natural textures
+   ============================================ */
+
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap');
- 
+
 /* ---- CSS Variables ---- */
 :root {
   --sand-50:   #fdf9f4;
@@ -21,12 +26,12 @@
   --radius-lg: 32px;
   --radius-xl: 50px;
 }
- 
+
 /* ---- Reset & Base ---- */
 *, *::before, *::after {
   box-sizing: border-box;
 }
- 
+
 body {
   margin: 0;
   font-family: 'Jost', sans-serif;
@@ -36,7 +41,7 @@ body {
   line-height: 1.7;
   letter-spacing: 0.01em;
 }
- 
+
 /* ---- Navbar ---- */
 .navbar {
   display: flex;
@@ -50,7 +55,7 @@ body {
   z-index: 100;
   backdrop-filter: blur(8px);
 }
- 
+
 .navbar-logo {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.5rem;
@@ -59,7 +64,7 @@ body {
   letter-spacing: 0.05em;
   text-decoration: none;
 }
- 
+
 .menu {
   display: flex;
   gap: 32px;
@@ -67,7 +72,7 @@ body {
   margin: 0;
   padding: 0;
 }
- 
+
 .menu a {
   text-decoration: none;
   color: var(--text-mid);
@@ -78,7 +83,7 @@ body {
   transition: color 0.25s;
   position: relative;
 }
- 
+
 .menu a::after {
   content: '';
   position: absolute;
@@ -89,20 +94,20 @@ body {
   background: var(--gold);
   transition: width 0.3s ease;
 }
- 
+
 .menu a:hover {
   color: var(--brown-700);
 }
- 
+
 .menu a:hover::after {
   width: 100%;
 }
- 
+
 /* ---- General Page Padding ---- */
 .page {
   padding: 80px 10%;
 }
- 
+
 /* ---- Buttons ---- */
 .btn {
   padding: 12px 28px;
@@ -117,12 +122,12 @@ body {
   cursor: pointer;
   transition: background 0.25s, transform 0.2s;
 }
- 
+
 .btn:hover {
   background: var(--brown-700);
   transform: translateY(-1px);
 }
- 
+
 .btn-primary {
   background: var(--brown-600);
   color: var(--sand-50);
@@ -136,12 +141,12 @@ body {
   cursor: pointer;
   transition: background 0.25s, transform 0.2s;
 }
- 
+
 .btn-primary:hover {
   background: var(--brown-700);
   transform: translateY(-2px);
 }
- 
+
 .btn-outline {
   border: 1.5px solid var(--brown-500);
   padding: 12px 28px;
@@ -155,19 +160,19 @@ body {
   cursor: pointer;
   transition: background 0.25s, color 0.25s, transform 0.2s;
 }
- 
+
 .btn-outline:hover {
   background: var(--sand-200);
   transform: translateY(-2px);
 }
- 
+
 /* ---- Profile Image ---- */
 .profile {
   width: 250px;
   border-radius: var(--radius-lg);
   object-fit: cover;
 }
- 
+
 /* ---- Hero Section ---- */
 .hero-container {
   display: flex;
@@ -177,7 +182,7 @@ body {
   padding: 100px 10%;
   background: var(--sand-50);
 }
- 
+
 /* Profile Card */
 .profile-card {
   background: var(--sand-200);
@@ -191,7 +196,7 @@ body {
   position: relative;
   overflow: hidden;
 }
- 
+
 .profile-card::before {
   content: '';
   position: absolute;
@@ -203,7 +208,7 @@ body {
   background: var(--sand-300);
   opacity: 0.45;
 }
- 
+
 .profile-img {
   width: 155px;
   height: 155px;
@@ -213,7 +218,7 @@ body {
   position: relative;
   z-index: 1;
 }
- 
+
 .line {
   width: 40px;
   height: 2px;
@@ -221,21 +226,21 @@ body {
   margin: 16px auto;
   border-radius: 2px;
 }
- 
+
 .job {
   letter-spacing: 0.2em;
   font-size: 0.72rem;
   text-transform: uppercase;
   color: var(--text-soft);
 }
- 
+
 .social {
   margin-top: 22px;
   display: flex;
   justify-content: center;
   gap: 14px;
 }
- 
+
 .social a {
   width: 36px;
   height: 36px;
@@ -250,12 +255,12 @@ body {
   transition: background 0.2s, transform 0.2s;
   text-decoration: none;
 }
- 
+
 .social a:hover {
   background: var(--sand-300);
   transform: translateY(-2px);
 }
- 
+
 /* Hero Text */
 .hero-text h1 {
   font-family: 'Cormorant Garamond', serif;
@@ -266,12 +271,12 @@ body {
   color: var(--brown-700);
   letter-spacing: -0.02em;
 }
- 
+
 .hero-text h1 em {
   font-style: italic;
   color: var(--gold);
 }
- 
+
 .hero-text h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
@@ -281,20 +286,20 @@ body {
   color: var(--text-soft);
   margin: 10px 0 32px;
 }
- 
+
 .hero-buttons {
   display: flex;
   gap: 14px;
   margin-bottom: 32px;
   flex-wrap: wrap;
 }
- 
+
 .circle-buttons {
   display: flex;
   gap: 22px;
   margin: 28px 0;
 }
- 
+
 .circle {
   width: 110px;
   height: 110px;
@@ -313,12 +318,12 @@ body {
   text-align: center;
   line-height: 1.3;
 }
- 
+
 .circle:hover {
   transform: scale(1.08) translateY(-3px);
   box-shadow: 0 8px 24px rgba(110, 75, 40, 0.18);
 }
- 
+
 .circle span {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.6rem;
@@ -327,24 +332,24 @@ body {
   line-height: 1;
   margin-bottom: 4px;
 }
- 
+
 /* Circle colors — earth tones */
 .yellow {
   background: #e8c46a;
   color: var(--brown-700);
 }
- 
+
 .red {
   background: #c27a5a;
   color: #fdf5ed;
 }
- 
+
 /* ---- About Section ---- */
 .about {
   padding: 90px 10%;
   background: var(--sand-100);
 }
- 
+
 .about-title {
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
@@ -354,7 +359,7 @@ body {
   letter-spacing: -0.01em;
   margin-bottom: 8px;
 }
- 
+
 .about-sub {
   text-align: center;
   color: var(--text-soft);
@@ -363,31 +368,31 @@ body {
   text-transform: uppercase;
   margin-bottom: 56px;
 }
- 
+
 .about-container {
   display: flex;
   align-items: flex-start;
   gap: 70px;
 }
- 
+
 .about-img img {
   width: 340px;
   border-radius: var(--radius-lg);
   object-fit: cover;
   box-shadow: 0 8px 40px rgba(110, 75, 40, 0.14);
 }
- 
+
 .about-content {
   flex: 1;
 }
- 
+
 .about-cards {
   display: flex;
   gap: 16px;
   margin-bottom: 28px;
   flex-wrap: wrap;
 }
- 
+
 .about-card {
   padding: 20px 18px;
   background: var(--sand-50);
@@ -397,12 +402,12 @@ body {
   min-width: 130px;
   transition: box-shadow 0.25s, transform 0.25s;
 }
- 
+
 .about-card:hover {
   box-shadow: 0 6px 20px rgba(110, 75, 40, 0.10);
   transform: translateY(-3px);
 }
- 
+
 .about-card h4 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.5rem;
@@ -410,21 +415,21 @@ body {
   color: var(--gold);
   margin: 0 0 4px;
 }
- 
+
 .about-card p {
   font-size: 0.78rem;
   color: var(--text-soft);
   letter-spacing: 0.04em;
   margin: 0;
 }
- 
+
 .about-text {
   color: var(--text-mid);
   line-height: 1.8;
   margin-bottom: 28px;
   font-size: 0.95rem;
 }
- 
+
 .cv-btn {
   padding: 14px 32px;
   background: var(--brown-600);
@@ -438,18 +443,18 @@ body {
   cursor: pointer;
   transition: background 0.25s, transform 0.2s;
 }
- 
+
 .cv-btn:hover {
   background: var(--brown-700);
   transform: translateY(-2px);
 }
- 
+
 /* ---- Skills Section ---- */
 .skills {
   padding: 100px 10%;
   background: var(--sand-50);
 }
- 
+
 .skills-title {
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
@@ -458,7 +463,7 @@ body {
   color: var(--brown-700);
   margin-bottom: 8px;
 }
- 
+
 .skills-sub {
   text-align: center;
   color: var(--text-soft);
@@ -467,14 +472,14 @@ body {
   text-transform: uppercase;
   margin-bottom: 56px;
 }
- 
+
 .skills-container {
   display: flex;
   justify-content: center;
   gap: 32px;
   flex-wrap: wrap;
 }
- 
+
 .skills-box {
   background: var(--sand-100);
   border: 1px solid var(--sand-200);
@@ -483,11 +488,11 @@ body {
   width: 400px;
   transition: box-shadow 0.3s;
 }
- 
+
 .skills-box:hover {
   box-shadow: 0 8px 32px rgba(110, 75, 40, 0.10);
 }
- 
+
 .skills-box h2 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.5rem;
@@ -497,38 +502,38 @@ body {
   margin-bottom: 32px;
   letter-spacing: 0.04em;
 }
- 
+
 .skills-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
- 
+
 .skill-item {
   display: flex;
   flex-direction: column;
   gap: 3px;
 }
- 
+
 .skill-item span {
   font-weight: 500;
   font-size: 0.9rem;
   color: var(--brown-700);
 }
- 
+
 .skill-item small {
   display: block;
   color: var(--text-soft);
   font-size: 0.75rem;
   letter-spacing: 0.08em;
 }
- 
+
 /* ---- Education Timeline ---- */
 .timeline {
   position: relative;
   margin-top: 80px;
 }
- 
+
 .timeline::before {
   content: '';
   position: absolute;
@@ -538,23 +543,23 @@ body {
   height: 100%;
   background: var(--sand-300);
 }
- 
+
 .timeline-item {
   display: grid;
   grid-template-columns: 1fr 50px 1fr;
   align-items: center;
   margin-bottom: 56px;
 }
- 
+
 .timeline-left {
   text-align: right;
   padding-right: 30px;
 }
- 
+
 .timeline-right {
   padding-left: 30px;
 }
- 
+
 .timeline-dot {
   width: 14px;
   height: 14px;
@@ -564,7 +569,7 @@ body {
   border: 3px solid var(--sand-50);
   box-shadow: 0 0 0 2px var(--sand-300);
 }
- 
+
 .timeline-left h4 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.05rem;
@@ -572,14 +577,14 @@ body {
   color: var(--brown-600);
   margin: 0 0 4px;
 }
- 
+
 .timeline-left p,
 .timeline-right p {
   color: var(--text-soft);
   font-size: 0.85rem;
   margin: 0;
 }
- 
+
 .timeline-right h3 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.15rem;
@@ -587,7 +592,7 @@ body {
   color: var(--brown-700);
   margin: 0 0 6px;
 }
- 
+
 /* ---- Contact Section ---- */
 .contact {
   display: flex;
@@ -598,25 +603,30 @@ body {
   background: var(--sand-100);
   flex-wrap: wrap;
 }
- 
+
 .contact-item {
   max-width: 200px;
   text-decoration: none;
   color: var(--text-dark);
   transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
- 
+
 .contact-item:hover {
   transform: translateY(-6px);
 }
- 
+
 .icon {
   font-size: 2.4rem;
   margin-bottom: 14px;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--brown-500);
 }
- 
+
 .contact-item h3 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.15rem;
@@ -624,14 +634,14 @@ body {
   color: var(--brown-700);
   margin-bottom: 8px;
 }
- 
+
 .contact-item p {
   color: var(--text-soft);
   font-size: 0.85rem;
   line-height: 1.5;
   margin: 0;
 }
- 
+
 /* ---- Section Divider ---- */
 .divider {
   width: 60px;
@@ -640,7 +650,7 @@ body {
   margin: 12px auto 0;
   border-radius: 2px;
 }
- 
+
 /* ---- Transcript (About.js) ---- */
 .term-block {
   margin-bottom: 16px;
@@ -649,7 +659,7 @@ body {
   overflow: hidden;
   background: var(--sand-50);
 }
- 
+
 .term-header {
   display: flex;
   align-items: center;
@@ -659,13 +669,13 @@ body {
   cursor: pointer;
   user-select: none;
 }
- 
+
 .term-name {
   font-weight: 500;
   font-size: 0.92rem;
   color: var(--brown-700);
 }
- 
+
 .term-gpa {
   font-size: 0.75rem;
   padding: 3px 10px;
@@ -674,13 +684,13 @@ body {
   color: var(--brown-600);
   font-weight: 500;
 }
- 
+
 .course-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.84rem;
 }
- 
+
 .course-table th {
   font-size: 0.72rem;
   font-weight: 500;
@@ -692,21 +702,21 @@ body {
   border-bottom: 1px solid var(--sand-200);
   background: var(--sand-50);
 }
- 
+
 .course-table td {
   padding: 10px 20px;
   border-bottom: 1px solid var(--sand-100);
   color: var(--text-dark);
 }
- 
+
 .course-table tr:last-child td {
   border-bottom: none;
 }
- 
+
 .course-table tr:hover td {
   background: var(--sand-100);
 }
- 
+
 .grade-badge {
   display: inline-block;
   font-size: 0.75rem;
@@ -716,12 +726,12 @@ body {
   min-width: 36px;
   text-align: center;
 }
- 
+
 .grade-a  { background: #e8c46a33; color: #7a5520; }
 .grade-b  { background: #c8d8b033; color: #4a6030; }
 .grade-c  { background: #d4b09033; color: #7a4820; }
 .grade-ip { background: #d8cfc533; color: var(--brown-600); }
- 
+
 .term-summary {
   padding: 10px 20px;
   font-size: 0.78rem;
@@ -731,20 +741,19 @@ body {
   display: flex;
   gap: 24px;
 }
- 
+
 .term-summary span {
   font-weight: 500;
   color: var(--brown-600);
 }
- 
+
 /* ---- Smooth scroll ---- */
 html {
   scroll-behavior: smooth;
 }
- 
+
 /* ---- Selection color ---- */
 ::selection {
   background: var(--gold-light);
   color: var(--brown-700);
 }
- 
