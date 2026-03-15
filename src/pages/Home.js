@@ -12,7 +12,7 @@ function Home() {
       <div className="profile-card">
 
         <img
-          src="https://i.pravatar.cc/200"
+          src="/certificates/me1.jpg"
           alt="profile"
           className="profile-img"
         />
@@ -26,9 +26,9 @@ function Home() {
         <div className="social">
 
           <span>f</span>
-          <span>t</span>
-          <span>in</span>
           <span>ig</span>
+          <span>mail</span>
+          <span>x</span>
 
         </div>
 
@@ -39,8 +39,6 @@ function Home() {
       <div className="hero-text">
 
         <h1>Hello</h1>
-
-        <h3>Here's who I am & what I do</h3>
 
         <div className="hero-buttons">
 
@@ -53,20 +51,22 @@ function Home() {
 
           <button
             className="btn-outline"
-            onClick={() => navigate("/portfolio")}
+            onClick={() => navigate("/activities")}
           >
-            PROJECTS
+            Activities
           </button>
 
         </div>
 
         <p>
-          I'm a web developer who enjoys building modern websites
-          using React and new technologies.
+         นักศึกษามหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ<br/>
+         สาขาวิชาเทคโนโลยีอิเล็กทรอนิกส์ (คอมพิวเตอร์)
+         
+
         </p>
 
-        <p>
-          This portfolio shows some of my projects and skills.
+        <p>   
+          สนใจด้าน IoT, Hardware และการพัฒนา Web Application
         </p>
 
       </div>

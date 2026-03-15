@@ -26,7 +26,7 @@ const transcriptData = [
     label: "2nd Semester 2024",
     period: "Semester 2 / 2024",
     gpa: "2.00",
-    defaultOpen: true,
+    defaultOpen: false,
     courses: [
       { code: "030523107", name: "Microcontroller System",           credits: 2, grade: "D+" },
       { code: "030523118", name: "Object Oriented Programming",      credits: 2, grade: "D"  },

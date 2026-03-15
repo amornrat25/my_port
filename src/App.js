@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
-import Project from "./pages/Project";
+import Activities from "./pages/Activities";
 import Transcript from "./pages/Transcript";
 import Contact from "./pages/Contact";
 
@@ -22,7 +22,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/skills" element={<Skills/>}/>
-        <Route path="/project" element={<Project/>}/>
+        <Route path="/activities" element={<Activities/>}/>
         <Route path="/transcript" element={<Transcript/>}/>
         <Route path="/contact" element={<Contact/>}/>
       </Routes>
